@@ -56,13 +56,13 @@ public class TargetLoanMessage {
         private Double originMoney;
         @SerializedName("preferential_rate")
         @Expose
-        private Integer preferentialRate;
+        private Double preferentialRate;
         @SerializedName("preferential_time")
         @Expose
         private Integer preferentialTime;
         @SerializedName("rate_base")
         @Expose
-        private Integer rateBase;
+        private Double rateBase;
         @SerializedName("loan_time")
         @Expose
         private Integer loanTime;
@@ -124,11 +124,11 @@ public class TargetLoanMessage {
             this.originMoney = originMoney;
         }
 
-        public Integer getPreferentialRate() {
+        public Double getPreferentialRate() {
             return preferentialRate;
         }
 
-        public void setPreferentialRate(Integer preferentialRate) {
+        public void setPreferentialRate(Double preferentialRate) {
             this.preferentialRate = preferentialRate;
         }
 
@@ -140,11 +140,11 @@ public class TargetLoanMessage {
             this.preferentialTime = preferentialTime;
         }
 
-        public Integer getRateBase() {
+        public Double getRateBase() {
             return rateBase;
         }
 
-        public void setRateBase(Integer rateBase) {
+        public void setRateBase(Double rateBase) {
             this.rateBase = rateBase;
         }
 

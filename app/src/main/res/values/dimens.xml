@@ -5,7 +5,7 @@
     <dimen name="text_small">14dp</dimen>
     <dimen name="text_big">20dp</dimen>
     <dimen name="text_medium">18dp</dimen>
-    <dimen name="activity_margin">30dp</dimen>
+    <dimen name="activity_margin">5dp</dimen>
     <dimen name="margin_24dp">24dp</dimen>
     <dimen name="margin_32dp">32dp</dimen>
     <dimen name="button_height_medium">30dp</dimen>

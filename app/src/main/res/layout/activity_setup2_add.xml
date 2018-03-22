@@ -24,7 +24,7 @@
                 android:id="@+id/txt_title_setup2_add"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/activity_margin"
+                android:layout_margin="@dimen/_5sdp"
                 android:text="@string/title1"
                 android:textColor="@color/color_white"
                 android:textSize="@dimen/text_big" />
@@ -33,7 +33,7 @@
                 android:id="@+id/recycle_setup2_add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/activity_margin">
+                android:layout_margin="@dimen/_5sdp">
 
             </android.support.v7.widget.RecyclerView>
         </LinearLayout>

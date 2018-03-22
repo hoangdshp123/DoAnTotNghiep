@@ -47,13 +47,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/_5sdp"
             android:text="@string/descrip_finish_intro2"
             android:textColor="@color/color_white"
             android:textSize="@dimen/text_medium" />
 
         <Button
-            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/_30sdp"
             android:id="@+id/btn_go_home"
             android:layout_width="match_parent"
             android:layout_height="@dimen/button_height"

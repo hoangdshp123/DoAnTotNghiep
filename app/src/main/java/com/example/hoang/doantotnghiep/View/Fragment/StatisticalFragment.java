@@ -16,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hoang.doantotnghiep.Adapter.CostlyAdapter;
+import com.example.hoang.doantotnghiep.Adapter.CustomMakerLayout;
 import com.example.hoang.doantotnghiep.Model.Costly;
 import com.example.hoang.doantotnghiep.Model.ModelApi.ExpensesDate;
 import com.example.hoang.doantotnghiep.Model.ModelExpenseDate.ExpenseTop10;
@@ -353,7 +354,9 @@ public class StatisticalFragment extends Fragment {
         xAxis.setDrawAxisLine(true);
         xAxis.setDrawGridLines(false);
 
-
+        lineChart.setTouchEnabled(true);
+        CustomMakerLayout mv = new CustomMakerLayout(getContext(), R.layout.custommaker,value1);
+        lineChart.setMarkerView(mv);
         lineChart.notifyDataSetChanged();
         lineChart.invalidate();
         Legend l = lineChart.getLegend();

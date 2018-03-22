@@ -14,7 +14,7 @@
         android:id="@+id/search_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/activity_margin"
+        android:layout_margin="@dimen/_5sdp"
         android:background="@android:color/white"
         android:clickable="true"
         android:focusable="false"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="10dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -137,6 +137,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/color_white"
-            android:layout_marginTop="@dimen/activity_margin" />
+            android:layout_marginTop="@dimen/_5sdp" />
     </android.support.v4.widget.NestedScrollView>
 </LinearLayout>

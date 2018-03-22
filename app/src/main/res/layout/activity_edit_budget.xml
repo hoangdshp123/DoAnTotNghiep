@@ -14,7 +14,7 @@
             android:id="@+id/linear_layout1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="@dimen/activity_margin"
+            android:layout_margin="@dimen/_5sdp"
             android:orientation="vertical">
 
             <TextView
@@ -40,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/txt_descrip"
-                android:layout_marginTop="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:text="@string/title_setup2"
                 android:textStyle="bold"
                 android:textColor="#637181"
@@ -53,7 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/txt_title"
-                android:layout_marginTop="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -87,8 +87,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/relative_nstt"
-                android:layout_marginBottom="@dimen/activity_margin"
-                android:layout_marginTop="@dimen/activity_margin" />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp" />
 
             <!--Ngan sach co ban-->
             <RelativeLayout
@@ -96,7 +96,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/recycle_setup2_nstt"
-                android:layout_marginTop="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -130,8 +130,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/relative_nscb"
-                android:layout_marginBottom="@dimen/activity_margin"
-                android:layout_marginTop="@dimen/activity_margin" />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp" />
 
             <!--Phong cach song-->
             <RelativeLayout
@@ -139,7 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/recycle_setup2_nscb"
-                android:layout_marginTop="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/_5sdp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -173,14 +173,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/relative_pcs"
-                android:layout_marginBottom="@dimen/activity_margin"
-                android:layout_marginTop="@dimen/activity_margin" />
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp" />
 
             <include
                 layout="@layout/budget_chart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_marginBottom="@dimen/_5sdp"
                 android:layout_below="@id/recycle_setup2_pcs" />
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
