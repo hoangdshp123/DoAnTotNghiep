@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hoang.doantotnghiep">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".View.activitys.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.LoginRegister"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.Infomation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.activitys.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.activitys.SplashActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.activitys.Setup2AddActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.activitys.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.activitys.SpendManagementActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.EvaluateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".View.activitys.EditBudgetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.AddNewTargetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.ManageRevenueActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.SelectTargetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".View.activitys.QRCodeActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".View.activitys.EditSpendActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <receiver
+            android:name=".View.activitys.NotificationReceiver"
+            android:screenOrientation="portrait" />
+        <activity android:name=".View.activitys.AddBorrowActivity" />
+        <activity android:name=".View.activitys.WebCaculateActivity" />
+        <activity android:name=".View.activitys.ViewCaculateBorrow" />
+        <activity android:name=".View.activitys.ExpandLvPayment"></activity>
+    </application>
+
+</manifest>

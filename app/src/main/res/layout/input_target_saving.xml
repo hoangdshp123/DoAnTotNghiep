@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_name_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/name_target" />
+
+    <EditText
+        android:id="@+id/edt_name_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào đây"
+        android:maxLength="20"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txt_value_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/value_target" />
+
+    <EditText
+        android:id="@+id/edt_value_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 vnd"
+        android:inputType="number"
+        android:maxLength="15"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_date_target"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/time_target" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/btn_choose_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableBottom="@android:color/black"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/edt_date_target"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:hint="Nhập ngày"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_picker_date"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+
+                    android:padding="10dp"
+                    android:src="@drawable/calendar" />
+
+            </TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layout_age"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:visibility="invisible">
+                    <EditText
+                        android:id="@+id/edt_age_now"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:hint="Tuổi hiện tại" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.4"/>
+                    <EditText
+                        android:id="@+id/edt_age"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:maxLength="3"
+                        android:gravity="center|left"
+                        android:hint="Tuổi nghỉ hưu" />
+                </LinearLayout>
+        </FrameLayout>
+
+
+        <ImageView
+            android:id="@+id/view_line_saving"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#576472" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_retirement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Năm nghỉ hưu" />
+
+    <EditText
+        android:id="@+id/edt_year_retirement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="năm"
+        android:inputType="number"
+        android:maxLength="3"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_money_perMotnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/money_saving_month" />
+
+    <TextView
+        android:id="@+id/txt_money_perMotnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:text="0 vnd"
+        android:textSize="@dimen/_16sdp" />
+
+
+</LinearLayout>

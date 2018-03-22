@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#08AA59"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/background_tab_history"
+        android:orientation="horizontal"
+        android:padding="1dp"
+
+        >
+
+        <Button
+            android:id="@+id/btn_from_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_blue_conor_button"
+            android:text="@string/from_date"
+            android:textAllCaps="false"
+            android:textColor="#d0e2fb" />
+
+        <Button
+            android:id="@+id/btn_to_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/to_date"
+            android:textAllCaps="false"
+            android:textColor="@color/color_button_blue" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/color_white">
+
+        <DatePicker
+            android:id="@+id/date_picker1"
+            style="@style/MyDatePickerDialogTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_gravity="center">
+
+        </DatePicker>
+
+        <DatePicker
+            android:id="@+id/date_picker2"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+        </DatePicker>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_gray_conor_button"
+            android:layout_height="wrap_content"
+            android:text="Đồng ý" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+          android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_gray_conor_button"
+            android:id="@+id/cancel"
+            android:text="Hủy bỏ" />
+    </LinearLayout>
+
+
+</LinearLayout>

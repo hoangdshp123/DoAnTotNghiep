@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_icon"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/icon_maid"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chi tieu"
+        android:id="@+id/txt_title"
+        android:textColor="@color/color_black"
+        android:gravity="center"
+        />
+
+</LinearLayout>

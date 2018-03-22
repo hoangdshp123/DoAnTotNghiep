@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/activity_margin"
+    android:layout_marginRight="@dimen/activity_margin"
+    android:layout_marginTop="8dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_history"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cafe" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_name_item_history"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ăn sáng và cafe"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_big" />
+
+                <ImageView
+                    android:id="@+id/editHistory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pencil"/>
+
+                <ImageView
+                    android:id="@+id/deleteHistory"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:src="@drawable/close"/>
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/tv_value_item_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150.000 vnđ"
+                android:textSize="@dimen/text_big" />
+
+            <EditText
+                android:enabled="false"
+                android:id="@+id/tv_note_item_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@color/transparent"
+                android:gravity="start"
+                android:textColor="@color/text_default"
+                android:hint="Chỗ ghi chú nếu có"
+                android:textSize="@dimen/text_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_nguon_thu_nhap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_background_default"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingRight="4dp">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="@string/ten_nguon_thu_nhap"
+            android:textColor="@color/color_white"
+            android:editable="false"
+            android:textColorHint="@color/text_hint_color"
+            android:textSize="@dimen/text_big" />
+
+        <ImageView
+            android:id="@+id/img_remove"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_remove" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <EditText
+            android:id="@+id/edt_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="@string/value_default"
+            android:singleLine="true"
+            android:inputType="number"
+            android:maxLength="15"
+            android:textColor="@color/color_white"
+            android:textColorHint="@color/text_hint_color"
+            android:textSize="@dimen/text_big" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/under_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_view" />
+
+
+</LinearLayout>

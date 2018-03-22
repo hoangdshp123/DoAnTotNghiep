@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#00000000"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:id="@+id/linear_home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <ImageView
+            android:id="@+id/img_home_nav"
+            android:layout_width="@dimen/icon_bottom_nav"
+            android:layout_height="@dimen/icon_bottom_nav"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/icon_home_unactive" />
+
+        <TextView
+            android:id="@+id/txt_home_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_9sdp"
+            android:text="@string/Home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_budget"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <ImageView
+            android:id="@+id/img_budget_nav"
+            android:layout_width="@dimen/icon_bottom_nav"
+            android:layout_height="@dimen/icon_bottom_nav"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/icon_wallet_unactive" />
+
+        <TextView
+            android:id="@+id/txt_budget_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_9sdp"
+            android:text="@string/budget" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <ImageView
+            android:layout_width="@dimen/icon_add_bottom_nav"
+            android:layout_height="@dimen/icon_add_bottom_nav"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/button_add_big" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_target"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <ImageView
+            android:id="@+id/img_target_nav"
+            android:layout_width="@dimen/icon_bottom_nav"
+            android:layout_height="@dimen/icon_bottom_nav"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/icon_target_unactive" />
+
+        <TextView
+            android:id="@+id/txt_target_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_9sdp"
+            android:text="@string/target" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_videos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <ImageView
+            android:id="@+id/img_video_nav"
+            android:layout_width="@dimen/icon_bottom_nav"
+            android:layout_height="@dimen/icon_bottom_nav"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/icon_video_unactive" />
+
+        <TextView
+            android:id="@+id/txt_video_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/_9sdp"
+            android:text="@string/videos" />
+    </LinearLayout>
+</LinearLayout>

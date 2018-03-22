@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_name_target_loan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:text="@string/name_loan" />
+
+    <EditText
+        android:id="@+id/edt_name_target_loan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:hint="Nhập vào đây"
+        android:maxLength="19"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txt_origin_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/origin_money" />
+
+    <EditText
+        android:id="@+id/edt_origin_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 vnd"
+        android:inputType="number"
+        android:maxLength="15"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txt_preferential_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/preferential_rate" />
+
+    <EditText
+        android:id="@+id/edt_preferential_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0%"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txt_preferential_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/preferential_time" />
+
+    <EditText
+        android:id="@+id/edt_preferential_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 năm"
+        android:inputType="number"
+        android:maxLength="3"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txt_rate_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/rate_base" />
+
+    <EditText
+        android:id="@+id/edt_rate_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0%"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txt_loan_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/loan_time" />
+
+    <EditText
+        android:id="@+id/edt_loan_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 năm"
+        android:inputType="number"
+        android:maxLength="3"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/txtv_loan_txrs1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pay_per_month" />
+
+    <TextView
+        android:id="@+id/tv_pay_per_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 vnd"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txtv_loan_txrs2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/pay_per_year" />
+
+    <TextView
+        android:id="@+id/tv_pay_per_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 vnd"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <TextView
+        android:id="@+id/txtv_loan_txrs3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/total_money_pay" />
+
+    <TextView
+        android:id="@+id/tv_total_money_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 vnd"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/txtv_loan_txrs4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/total_interest_pay" />
+
+    <TextView
+        android:id="@+id/tv_total_interest_pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="0 vnd"
+        android:inputType="number"
+        android:singleLine="true" />
+</LinearLayout>

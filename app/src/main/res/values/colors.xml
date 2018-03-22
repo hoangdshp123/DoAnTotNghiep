@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#08AA59</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="transparent">#00d9d9d9</color>
+    <color name="color_toolsbar">#0E7DC1</color>
+    <color name="color_table">#81b5d6</color>
+    <color name="color_table2">#38617b</color>
+    <color name="color_title">#98b0bf</color>
+    <color name="color_button_blue">#0e7dc1</color>
+    <color name="color_gray">#ffffff</color>
+    <color name="color_gray2">#7c7c7c</color>
+    <color name="color_white_transparent_50">#80ffffff</color>
+    <color name="colorTrasnparent">#66000000</color>
+    <color name="colorOrange">#F67122</color>
+    <color name="color_background_default">#077D30</color>
+    <color name="colorDialog">#189aca</color>
+    <color name="text_hint_color">#80ffffff</color>
+    <color name="background_view">#1Affffff</color>
+    <color name="color_dialog">#3BC16A</color>
+    <color name="text_focus">#08AA59</color>
+    <color name="text_default">#637181</color>
+    <color name="text_hint_bright">#80637181</color>
+    <color name="QRCodeBlackColor">#000000</color>
+    <color name="QRCodeWhiteColor">#ffffff</color>
+</resources>

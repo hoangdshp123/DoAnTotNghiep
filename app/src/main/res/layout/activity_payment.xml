@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#08AA59">
+
+        <ImageView
+            android:id="@+id/btn_spend_back"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/title_spend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Thêm chi tiêu"
+            android:textColor="@android:color/white"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Miêu tả tên"
+                android:textStyle="bold"
+                android:textColor="#637181"
+               />
+
+            <EditText
+                android:id="@+id/edt_expense_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:maxLength="20"
+                android:hint="Nhập vào đây"
+
+                android:inputType="text"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Chọn chủ đề và chi tiêu"
+                android:textStyle="bold"
+                android:textColor="#637181"
+                 />
+
+            <TableRow
+                android:id="@+id/btn_choose_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableBottom="@android:color/black"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_payment"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:padding="7dp"
+                    android:src="@drawable/iconselectpayment1" />
+                <TextView
+                    android:id="@+id/txtv_name_payment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:hint="Chọn chi tiêu"
+                    />
+
+            </TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:background="#576472" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Nhập số tiền"
+                android:textStyle="bold"
+                android:textColor="#637181"
+                 />
+
+            <EditText
+                android:id="@+id/edt_expense_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+               android:singleLine="true"
+                android:inputType="number"
+                android:hint="0 vnđ"
+                android:maxLength="15"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Chọn ngày"
+                android:textStyle="bold"
+                android:textColor="#637181"
+                 />
+
+            <TableRow
+                android:id="@+id/btn_choose_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableBottom="@android:color/black"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtv_date_payment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center|left"
+                    android:hint="Nhập ngày"
+                     />
+
+                <ImageView
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:padding="16dp"
+                    android:src="@drawable/calendar" />
+
+            </TableRow>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginTop="-5dp"
+                android:background="#576472" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Ghi chú"
+                android:textStyle="bold"
+                android:textColor="#637181"
+               />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="100dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edt_note"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|top"
+                        android:hint="Thêm ghi chú ..."
+                        android:textSize="18dp"
+                        android:windowSoftInputMode="stateAlwaysHidden" />
+
+                    <!--<include layout="@layout/show_image" />-->
+
+
+                </LinearLayout>
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/btn_camera"-->
+                    <!--android:layout_width="?attr/actionBarSize"-->
+                    <!--android:layout_height="?attr/actionBarSize"-->
+                    <!--android:layout_gravity="right"-->
+                    <!--android:padding="16dp"-->
+                    <!--android:src="@drawable/camera" />-->
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="@dimen/_1sdp"-->
+                    <!--android:background="#576472"-->
+                    <!--android:layout_marginTop="-5dp"/>-->
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_gray_conor_button"
+            android:text="Hủy"
+            android:id="@+id/btn_cancel"
+            android:textAllCaps="false"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_accept"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_blue_conor_button"
+            android:text="Đồng ý"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+
+    </TableRow>
+
+</LinearLayout>

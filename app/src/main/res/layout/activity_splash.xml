@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:background="@drawable/background_splash">
+
+    <ImageView
+        android:id="@+id/img_logo_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo3x" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_logo_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="Quản lý tài chính cá nhân"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/img_quoteup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/iconquoteup_splash" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_quoteup"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_description"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/img_quotedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/iconquotedown_splash" />
+
+    <ProgressBar
+        android:id="@+id/process_Bar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:indeterminateTint="@android:color/white" />
+
+</RelativeLayout>

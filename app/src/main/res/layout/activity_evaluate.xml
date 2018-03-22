@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khu vực sinh sống"
+                android:textColor="#637181"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/edt_zone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/_14sdp"
+                android:hint="@string/select_city"
+                android:singleLine="true"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/age"
+                android:textColor="#637181"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:hint="@string/enter_here"
+                android:singleLine="true"
+                android:maxLength="3"
+                android:windowSoftInputMode="stateAlwaysHidden" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/gender"
+                android:textColor="#637181"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_gender"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"></Spinner>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Tình trạng hôn nhân"
+                android:textColor="#637181"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_is_marrige"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"></Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Bạn có phải nuôi con một mình không ?"
+                android:textColor="#637181"
+                android:textSize="@dimen/text_big"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner_is_have_children"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"></Spinner>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_evaluatecancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#e6e6e6"
+            android:text="Hủy"
+            android:textAllCaps="false"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btn_evaluatenow"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_blue_conor_button"
+            android:text="Đánh giá"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+
+    </TableRow>
+
+</LinearLayout>

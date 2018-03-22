@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_splash"
+    tools:context="com.example.hoang.doantotnghiep.View.Fragment.FinishIntroFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:id="@+id/img_left"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_30sdp"
+        android:paddingRight="@dimen/_30sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/descrip_finish_intro1"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_medium" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:text="@string/descrip_finish_intro2"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_medium" />
+
+        <Button
+            android:layout_marginTop="@dimen/activity_margin"
+            android:id="@+id/btn_go_home"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_button_default"
+            android:gravity="center"
+            android:text="@string/go_home"
+            android:textAllCaps="false"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_big" />
+    </LinearLayout>
+
+</LinearLayout>

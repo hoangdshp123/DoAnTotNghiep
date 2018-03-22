@@ -1,0 +1,328 @@
+<resources>
+    <string name="app_name">Đồ án</string>
+    <string name="facebook_app_id">309590702888981</string>
+    <string name="txt_hint_emaillogin"><font size="12">Email đăng ký</font></string>
+    <string name="txt_hint_password"><font size="12">Mật khẩu</font></string>
+    <string name="txt_hint_repassword"><font size="12">Nhập lại mật khẩu</font></string>
+    <string name="txt_description">Ghi lại các khoản chi tiêu hàng ngày để biết chính xác đồng tiền của bạn đang đi về đâu</string>
+    <string name="year">Số năm</string>
+    <string name="image">Ảnh</string>
+    <string name="logo">Biểu tượng</string>
+    <string name="currency">vnđ</string>
+    <string name="cancel">Hủy</string>
+    <string name="agree">Đồng ý</string>
+    <string name="value">Giá trị</string>
+    <string name="conclude">Kết luận</string>
+    <string name="moneypayment">Số tiền phải trả</string>
+    <string name="annualmoneypayment">Số tiền phải trả hàng năm</string>
+    <string name="mounthlymoneypayment">Số tiền phải trả hàng tháng</string>
+    <string name="restmoney">Số tiền còn lại</string>
+    <string name="all_payment">TẤT CẢ CHI TIÊU</string>
+    <string name="txt_budget">CÁC LOẠI NGÂN SÁCH</string>
+    <string name="budget_three_day">BIỂU ĐỒ CHI TIÊU 5 NGÀY</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="budget_tips">Làm rõ ngân sách từng khoản chi tiêu sẽ giúp bạn biết tiền của bạn đang đi về đâu</string>
+    <string name="select_city">Chọn thành phố</string>
+
+    <string name="personalaccount">TÀI CHÍNH CÁ NHÂN</string>
+    <string name="managerbudget">Quản lý thu nhập</string>
+    <string name="income">Thu nhập:</string>
+    <string name="totalbudget">Tổng ngân sách:</string>
+    <string name="targetfinance">Mục tiêu tài chính:</string>
+    <string name="economicalfeasibility">Tiết kiệm kỳ vọng:</string>
+    <string name="spendingcharts">BIỂU ĐỒ CHI TIÊU</string>
+    <string name="remainingamount">SỐ TIỀN TIẾT KIỆM</string>
+    <string name="trackspending">CHI TIÊU GẦN NHẤT</string>
+    <string name="spendmanager">Quản lý chi tiêu</string>
+    <string name="youstillhavethemoney">Bạn còn số tiền là:</string>
+    <string name="tips">Vay tiêu dùng - Ngân hàng trong tay bạn</string>
+    <string name="target_of_loan">Mục tiêu vay</string>
+    <string name="target_saving">Mục tiêu tiết kiệm</string>
+    <string name="note">Hiểu rõ các mục tiêu tài chính để biết chính xác bản thân có thể đạt được ước mơ của mình trong tương lai hay không.</string>
+    <string name="addtarget">Thêm mục tiêu</string>
+    <string name="all_spend">Tổng chi tiêu:</string>
+
+    <string name="minimum_budget">NGÂN SÁCH TỐI THIỂU</string>
+    <string name="basic_budget">NGÂN SÁCH CƠ BẢN</string>
+    <string name="lifestyle">PHONG CÁCH SỐNG</string>
+    <string name="minimum_budget_often">Ngân sách tối thiểu</string>
+    <string name="basic_budget_often">Ngân sách cơ bản</string>
+    <string name="lifestyle_often">Ngân sách xa xỉ</string>
+    <string name="notes">Làm rõ ngân sách từng khoản chi tiêu sẽ biết tiền của mình đang đi về đâu</string>
+
+    //công cụ tính
+    <string name="tools_index0">Chi tiêu</string>
+    <string name="tools_index1">Tiết kiệm</string>
+    <string name="tools_index2">Mua nhà</string>
+    <string name="tools_index3">Mua ô tô</string>
+    <string name="tools_index4">Quản lý nợ</string>
+    <string name="tools_index5">Thẻ tín dụng</string>
+    <string name="tools_index6">Bảo hiểm</string>
+    <string name="tools_index7">Nghỉ hưu</string>
+    <string name="tools_index8">Công cụ khác</string>
+
+    <string name="tips_title">Thủ thuật:</string>
+    <string name="tips_tools_content">Thường xuyên sử dụng công cụ tính toán để giải các bài toán tài chính của mình.</string>
+    <string name="tools_category">CHỌN CÔNG CỤ TÍNH</string>
+    <string name="title_toolbar_tools">Công cụ tính</string>
+    <string name="exspense_menu1">Tôi sẽ tiết kiệm hay bội chi bao nhiêu tiền?</string>
+    <string name="exspense_menu2">Lạm phát tác động đến cuộc sống của bạn như thế nào</string>
+    <string name="saving_menu1">Quỹ khẩn cấp của bạn là bao nhiêu</string>
+    <string name="saving_menu2">Tôi phải tiết kiệm bao nhiêu tiền mỗi tháng để có số tiền cần thiết</string>
+    <string name="saving_menu3">Quỹ tiết kiệm của bạn còn sử dụng được bao nhiêu lâu</string>
+    <string name="saving_menu4">Tôi nên tiết kiệm bây giờ hay sau này</string>
+    <string name="saving_menu5">Tôi có thể tiết kiệm được bao nhiêu tiền</string>
+    <string name="title_toolbar_tools_expense_menu">Chi tiêu</string>
+    <string name="title_toolbar_tools_saving_menu">Tiết kiệm</string>
+    <string name="money_empty">Bạn chưa nhập số tiền</string>
+    <string name="msg_empty">Bạn chưa nhập tháng</string>
+    <string name="msg_betwen_month">Tháng phải nằm từ 1 đến 12</string>
+    <string name="to_date">Đến ngày</string>
+    <string name="from_date">Từ ngày</string>
+    <string name="nettworkError">Lỗi kết nối, vui lòng kiểm tra lại</string>
+    <string name="slect_image">Chọn hình ảnh minh họa</string>
+    <string name="name_target">Tên mục tiêu tiết kiệm</string>
+    <string name="value_target">Số tiền cần có</string>
+    <string name="time_target">Thời điểm mục tiêu cần đạt được</string>
+    <string name="money_saving_month">Số tiền tiết kiệm theo tháng</string>
+    <string name="empty_value">Bạn phải điền đầy đủ tất cả các trường hợp</string>
+    <string name="date_invalid">Ngày tháng không đúng định dạng</string>
+    <string name="date_befor_current">Ngày phải lớn hơn ngày hiện tại</string>
+    <string name="img_icon_null">Bạn chưa chọn biểu tượng</string>
+    <string name="addtargetsuccess">Thêm mục tiêu mới thành công!</string>
+    <string name="addtargetfail">Thêm mục tiêu mới thất bại!</string>
+    <string name="money">Số tiền</string>
+    <string name="go_web">Tới giao diện web</string>
+
+
+    //setup 1
+    <string name="descrip_setup1">Hiểu rõ các nguồn tiền đến từ đâu sẽ giúp bạn có kế hoạch nâng cao thu nhập trong tương lai.</string>
+    <string name="title_setup1">Bạn hiểu rõ nguồn thu nhập của mình như nào ?</string>
+    <string name="setup1_category">NGUỒN THU NHẬP</string>
+
+
+    //setup 2
+    <string name="descrip_setup2">Thiết lập ngân sách và chi tiêu kỷ luật theo ngân sách đặt ra là căn bản để quản lý đồng tiền của mình.</string>
+    <string name="title_setup2">THIẾT LẬP NGÂN SÁCH</string>
+    <string name="setup2_category_index0">NGÂN SÁCH TỐI THIỂU</string>
+    <string name="setup2_category_index1">NGÂN SÁCH CƠ BẢN</string>
+    <string name="setup2_category_index2">PHONG CÁCH SỐNG</string>
+
+
+    //setup 1 add
+    <string name="setup1_add_index0">Lương</string>
+    <string name="setup1_add_index1">Thưởng</string>
+    <string name="setup1_add_index2">Bán hàng</string>
+    <string name="setup1_add_index3">Quà tặng</string>
+    <string name="setup1_add_index4">Lãi đầu tư</string>
+    <string name="setup1_add_index5">Tiền vay được</string>
+    <string name="setup1_add_index6">Làm thêm</string>
+    <string name="setup1_add_index7">Tiền boa, tips</string>
+    <string name="setup1_add_index8">Thu nhập khác</string>
+    <string name="period">Khoảng thời gian: </string>
+    <string name="pick_dates">Chọn ngày</string>
+    <string name="look_for_expenditures">Tìm kiếm khoản chi tiêu...</string>
+    <string name="look_for_video">Tìm kiếm video...</string>
+
+    <string name="title_toolbar_setup1_add">Quay lại</string>
+    <string name="add">Thêm</string>
+    <string name="indicator_back">QUAY LẠI</string>
+    <string name="indicator_continue">TIẾP TỤC</string>
+
+
+    //setup2 add
+    <string name="setup2_category">CHỌN KIỂU NGÂN SÁCH</string>
+    <string name="title1">CHỌN KIỂU THU NHẬP</string>
+
+    <string name="setup2_add_nstt_index0">Thuê nhà</string>
+    <string name="setup2_add_nstt_index1">Điện</string>
+    <string name="setup2_add_nstt_index2">Nước</string>
+    <string name="setup2_add_nstt_index3">Thực phẩm</string>
+    <string name="setup2_add_nstt_index4">TV, Internet</string>
+    <string name="setup2_add_nstt_index5">Điện thoại</string>
+    <string name="setup2_add_nstt_index6">Xăng xe</string>
+    <string name="setup2_add_nstt_index7">Trả nợ</string>
+    <string name="setup2_add_nstt_index8">Ngân sách khác</string>
+
+    <string name="setup2_add_nscb_index0">Mua sắm</string>
+    <string name="setup2_add_nscb_index1">Giáo dục</string>
+    <string name="setup2_add_nscb_index2">Thể thao</string>
+    <string name="setup2_add_nscb_index3">Làm đẹp</string>
+    <string name="setup2_add_nscb_index4">Phí hội nhóm</string>
+    <string name="setup2_add_nscb_index5">Nuôi trẻ nhỏ</string>
+    <string name="setup2_add_nscb_index6">Cha mẹ</string>
+    <string name="setup2_add_nscb_index7">Người giúp việc</string>
+    <string name="setup2_add_nscb_index8">Ngân sách khác</string>
+
+    <string name="setup2_add_pcs_index0">Cafe</string>
+    <string name="setup2_add_pcs_index1">Xem phim</string>
+    <string name="setup2_add_pcs_index2">Nhà hàng</string>
+    <string name="setup2_add_pcs_index3">Đi du lịch</string>
+    <string name="setup2_add_pcs_index4">Từ thiện</string>
+    <string name="setup2_add_pcs_index5">Sưu tập</string>
+    <string name="setup2_add_pcs_index6">Bảo hiểm</string>
+    <string name="setup2_add_pcs_index7">Trang trí</string>
+    <string name="setup2_add_pcs_index8">Ngân sách khác</string>
+
+
+    //setup3
+    <string name="setup3_index0">Mua nhà</string>
+    <string name="setup3_index1">Mua ô tô</string>
+    <string name="setup3_index2">Mua sắm</string>
+    <string name="setup3_index3">Đi du lịch</string>
+    <string name="setup3_index4">Sửa nhà</string>
+    <string name="setup3_index5">Quỹ khẩn cấp</string>
+    <string name="setup3_index6">Tiền nghỉ hưu</string>
+    <string name="setup3_index7">Trả nợ</string>
+    <string name="setup3_index8">Mục tiêu khác</string>
+    <string name="descrip_setup3">Hiểu rõ các mục tiêu tài chính để biết chính xác bản thân có thể đạt được ước mơ của mình trong tương lai hay không.</string>
+    <string name="title_setup3">Lựa chọn mục tiêu tài chính</string>
+    <string name="ten_nguon_thu_nhap">Tên nguồn thu nhập</string>
+    <string name="value_default">0 vnđ</string>
+
+    //fragment welcome
+    <string name="title_welcome">Thư ký tài chính</string>
+    <string name="descrip_welcome_1">Hãy để chúng tôi giúp bạn sử dụng hết</string>
+    <string name="descrip_welcome_2">sức mạnh của MANNER APP</string>
+    <string name="start">Bắt đầu</string>
+    <string name="name_loan">Tên khoản vay</string>
+    <string name="origin_money">Số tiền vay gốc</string>
+    <string name="preferential_rate">Lãi suất ưu đãi (nếu có)</string>
+    <string name="rate_base">Lãi suất thông thường</string>
+    <string name="pay_per_month">Số tiền phải trả hàng tháng</string>
+    <string name="total_interest_pay">Số tiền chênh lệch so với gốc</string>
+    <string name="pay_per_year">Số tiền phải trả hàng năm</string>
+    <string name="total_money_pay">Tổng số tiền phải trả (gốc + lãi)</string>
+    <string name="loan_time">Thời gian vay</string>
+    <string name="preferential_time">Thời gian vay ưu đãi</string>
+
+
+    //fragment finish intro
+    <string name="go_home">ĐI TỚI MÀN HÌNH CHÍNH</string>
+    <string name="descrip_finish_intro1">Chúc mừng!</string>
+    <string name="descrip_finish_intro2">LÀM CHỦ CUỘC ĐỜI BẠN BẰNG LÀM CHỦ TÀI CHÍNH</string>
+    <string name="Home">Trang chủ</string>
+    <string name="budget">Ngân sách</string>
+    <string name="target">Mục tiêu</string>
+    <string name="videos">Vay tiền</string>
+
+    //dialog
+    <string name="budget_name">Tên ngân sách</string>
+    <string name="budget_value">Mức ngân sách</string>
+    <string name="add_budget_type">Thêm kiểu ngân sách</string>
+    <string name="add_income">Thêm nguồn thu nhập</string>
+    <string name="income_name">Tên thu nhập</string>
+    <string name="income_value">Mức thu nhập</string>
+    <string name="add_list_budget_success">Thêm ngân sách thành công !</string>
+    <string name="add_list_budget_fail">Thêm ngân sách không thành công!</string>
+    <string name="add_list_revenue">Thêm thu nhập</string>
+    <string name="add_list_revenue_success">Thêm thu nhập thành công !</string>
+    <string name="add_list_revenue_fail">Thêm thu nhập thất bại !</string>
+    <string name="empty_revenue">Bạn chưa điền đủ thông tin của thu nhập !</string>
+    <string name="empty_nstt">Bạn chưa điền đủ thông tin của ngân sách tối thiểu !</string>
+    <string name="empty_nscb">Bạn chưa điền đủ thông tin của ngân sách cơ bản!</string>
+    <string name="empty_pcs">Bạn chưa điền đủ thông tin của phong cách sống !</string>
+    <string name="update_firstLogin">Cập nhật dữ liệu lần đầu đăng nhập không thành công</string>
+
+
+    //manage revenue activity
+    <string name="search_income">Tìm kiếm khoản thu nhập...</string>
+    <string name="all_income">TẤT CẢ THU NHẬP</string>
+    <string name="select_time">Chọn thời gian xem:</string>
+    <string name="low_preferential">Lãi xuất phải nhỏ hơn hoặc bằng 50%</string>
+    <string name="low_preferential_time">Thời gian vay ưu đãi phải nhỏ hơn 10</string>
+    <string name="loan_time_">Thời gian vay phải nhở hơn hoặc bằng 20</string>
+    <string name="low_rate_base">Lãi xuất thông thường phải nhỏ hơn hoặc bằng 20</string>
+    <string name="manage_revenue">Quản lý thu nhập</string>
+    <string name="add_minium_budget">Thêm ngân sách tối thiểu</string>
+    <string name="select_revenue_type">CHỌN KIỂU THU NHẬP</string>
+    <string name="select_budget_type">CHỌN KIỂU NGÂN SÁCH</string>
+
+    //edit budget activity
+    <string name="add_basic_budget">Thêm ngân sách cơ bản</string>
+    <string name="add_lifestyle">Thêm phong cách sống</string>
+    <string name="edit_budget">Chỉnh sửa ngân sách</string>
+
+    //add target activity
+    <string name="attention">Lưu ý:</string>
+    <string name="add_target_descrip">Với tổng thu nhập là 5tr, và tổng ngân sách chi tiêu là 2tr, bạn chỉ còn 3tr tiền nhàn rỗi cho tất cả các mục tiêu tài chính.</string>
+    <string name="chart_empty">Chưa có dữ liệu hiển thị</string>
+    <string name="enter_here">Nhập vào đây</string>
+    <string name="age">Tuổi</string>
+    <string name="gender">Giới tính</string>
+    <string name="add_evalute">Thêm đánh giá</string>
+    <string name="buy_house_menu1">Tính tiền vay mua nhà</string>
+    <string name="buy_house_menu2">Tôi nên thuê nhà hay mua nhà</string>
+    <string name="buy_house_menu3">So sánh khoản vay mua nhà theo từng năm</string>
+    <string name="buy_house_menu4">Tôi có thể vay tối đa được bao nhiêu tiền</string>
+    <string name="title_toolbar_tools_buy_house_menu">Mua nhà</string>
+    <string name="buy_car_menu1">Tính tiền vay mua ô tô</string>
+    <string name="buy_car_menu2">Tôi nên thuê taxi hay mua xe</string>
+    <string name="buy_car_menu3">Tôi có thể vay mua ô tô tối đa bao nhiêu</string>
+    <string name="buy_car_menu4">So sánh khoản vay mua ô tô theo từng năm</string>
+    <string name="buy_car_menu5">So sánh mức chi tiêu năng lượng của từng xe</string>
+    <string name="buy_car_title1">Tính tiền vay mua ô tô</string>
+    <string name="buy_house_title1">Tính tiền vay mua nhà</string>
+    <string name="buy_car_title2">Tôi nên mua xe hay thuê xe</string>
+    <string name="buy_car_title3">Tôi có thể vay mua ô tô tối đa bao nhiêu</string>
+    <string name="buy_car_title4">So sánh các khoản vay theo năm</string>
+    <string name="buy_car_desc1">Số tiền vay ban đầu, lãi suất hàng tháng, thời gian vay (tháng) ảnh hưởng rất lớn đến tổng số tiền cuối cùng bạn phải trả khi vay mua ô tô. Sử dụng công cụ dưới đây để biết chính xác khoản vay của bạn.</string>
+    <string name="buy_car_desc2">Công cụ dưới đây chỉ mang tính tham khảo. Chúng tôi khuyến khích bạn tham khảo nhân viên tư vấn của ngân hàng sở tại để có con số chính xác theo chính sách của ngân hàng.</string>
+    <string name="buy_car_desc3">Ô tô là một tài sản lớn, dù vậy, ô tô rất nhanh mất giá. Với kinh phí có hạn và giá cả thay đổi. Bạn sẽ bất ngờ khi so sánh giữa việc sở hữu xe riêng và thuê xe trong thời gian dài.</string>
+    <string name="buy_car_desc4">Sử dụng công cụ này để biết chính xác số tiền bỏ ra khi mua xe và thuê xe.</string>
+    <string name="buy_car_desc5">Sử dụng công cụ dưới để biết chính xác mình có thể vay và mua được ô tô trị giá bao nhiêu tiền.</string>
+    <string name="buy_car_desc6"></string>
+    <string name="buy_car_desc7">Vay mua ô tô là một quyết định tài chính lâu dài và ảnh hưởng lớn đến tương lai tài chính của bạn. Sử dụng công cụ dưới đây để so sánh các khoản vay theo năm.</string>
+    <string name="buy_car3_desc1">Sử dụng công cụ để biết chính xác mình có thể vay bao nhiêu tiền</string>
+    <string name="buy_car2_desc1">Ô tô là một tài sản lớn, dù vậy, ô tô rất nhanh mất giá. Với kinh phí có hạn và giá cả thay đổi
+    . Bạn sẽ bất ngờ khi so sánh giữa việc sở hữu xe riêng và thuê xe trong thời gian dài. Sử dụng công cụ này để biết chính xác
+    số tiền bỏ ra khi mua xe và thuê xe.</string>
+    <string name="buy_car4_desc1">Vay mua nhà, mua ô tô là một quyết định tài chính lâu dài và ảnh hưởng lớn đến tương lai tài chính của bạn. Sử dụng công cụ dưới đây để so sánh
+    các khoản vay theo năm</string>
+
+    <string name="buy_car5_desc1">Mức tiêu hao năng lượng là một yếu tố ảnh hưởng đến tổng chi phí vận hành xe của riêng bạn.
+     Sử dụng công cụ dưới đây để biết chính xác bạn dành bao nhiêu tiền cho năng lượng vận hành xe.</string>
+
+    <string name="buy_house2_desc1">Ngôi nhà là tài sản lớn nhất trong cuộc đời bạn. Dù vậy với kinh phí có hạn và giá cả thay đổi.
+     Bạn sẽ bất ngờ khi so sánh toàn bộ khoản tiền chi tiêu cho ngôi nhà của mình trong thời gian dài. Sử dụng công cụ này để biết
+    chính xác số tiền bỏ ra khi mua nhà và thuê nhà.</string>
+    <string name="title_toolbar_tools_buy_car_menu">Mua xe</string>
+    <string name="buy_manager_debt_menu1">Tính vay mua đồ trả góp</string>
+    <string name="buy_manager_debt_menu2">Bạn nên trả nợ hay đầu tư</string>
+    <string name="buy_manager_debt_menu3">Tôi phải chi tiêu hay trả nợ hết bao nhiêu</string>
+    <string name="buy_manager_debt_menu4">Tôi mất bao lâu để trả nợ</string>
+    <string name="buy_manager_debt_menu5">Khoản nợ của tôi có an toàn không</string>
+    <string name="buy_manager_debt_menu6">Khi trả nợ sớm tôi sẽ bị phạt bao nhiêu</string>
+    <string name="title_toolbar_tools_manager_debt_menu">Quản lý nợ</string>
+    <string name="buy_credit_menu1">Tính lãi trên số dư thẻ tín dụng qua nhiều kỳ thanh toán</string>
+    <string name="title_toolbar_tools_credit_menu">Thẻ tín dụng</string>
+    <string name="insurrance_menu1">Tôi cần bao nhiêu tiền cho bảo hiểm nhân thọ</string>
+    <string name="insurrance_menu2">Tôi sẽ đóng bao nhiêu tiền cho BHXH nhà nước</string>
+    <string name="title_toolbar_tools_insurrance_menu">Bảo hiểm</string>
+    <string name="ritirement_menu1">Tôi cần bao nhiêu tiền cho nghỉ hưu</string>
+    <string name="ritirement_menu2">Thời điểm bắt đầu tiết kiệm nghỉ hưu</string>
+    <string name="title_toolbar_tools_ritirement_menu">Nghỉ hưu</string>
+    <string name="other_menu1">Tính tổng tài sản</string>
+    <string name="other_menu2">Công cụ tính lãi đơn</string>
+    <string name="title_toolbar_tools_other_menu">Công cụ khác</string>
+
+
+    //finance healthy
+    <string name="rating_1">Chúc mừng: Tình hình tài chính của bạn rất tốt, chỉ 5% dân số có thể làm được như bạn.</string>
+    <string name="rating_2">Chúc mừng: Tình hình tài chính của bạn rất tốt.</string>
+    <string name="rating_3">Chúc mừng: Tình hình tài chính của bạn rất tốt. Sẽ tốt hơn nếu bạn cải thiện số tiền tiết kiệm được trong các tháng sắp tới.</string>
+    <string name="rating_4">Số tiền tiết kiệm của bạn quá thấp, bạn có thể muốn cấu trúc lại các khoản chi tiêu của bản thân.</string>
+    <string name="rating_5">Tình hình nghiêm trọng. Tổng chi tiêu và nợ phải trả của bạn đang lớn hơn tổng thu nhập. Hoặc bạn tìm cách giảm chi tiêu, hoặc tìm cách tăng thu nhập cho mình.</string>
+
+    <string name="notification">Thông báo</string>
+
+    <string name="click_success">Thêm Click thành công</string>
+    <string name="click_false">Thêm Click thành công</string>
+    <string name="enter_date">Nhập ngày</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //TOOL
+    <string name="descrip_expense_index1">Thu nhập là hữu hạn, bạn muốn tiết kiệm nhiều hơn trong một tháng. Sử dụng công cụ dưới đây để biết được bạn có thể cắt giảm chi tiêu được bao nhiêu tiền một tháng. So sánh chi tiêu hiện thời với chi tiêu mong muốn, bạn sẽ biết chính xác số tiền tiết kiệm được.</string>
+</resources>

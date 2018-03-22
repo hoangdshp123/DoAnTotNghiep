@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#08AA59">
+
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:padding="12dp"
+            android:id="@+id/btn_manager_back"
+            android:src="@drawable/ic_back" />
+
+        <TableRow android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:padding="1dp"
+            android:background="@drawable/background_tab_history"
+            android:layout_weight="1">
+            <Button android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_blue_conor_button"
+                android:textAllCaps="false"
+                android:text="Lịch sử chi tiêu"
+                android:id="@+id/btn_manager_history"
+                android:textColor="#d0e2fb"
+                android:layout_weight="1"/>
+            <Button android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/transparent"
+                android:text="Thống kê chi tiêu"
+                android:id="@+id/btn_manager_statistical"
+                android:textAllCaps="false"
+                android:textColor="#08AA59"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <ImageView
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_spend"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

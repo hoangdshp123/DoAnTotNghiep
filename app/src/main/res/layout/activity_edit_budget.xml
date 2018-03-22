@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/linear_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/activity_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tips"
+                android:textStyle="bold"
+                android:textColor="#637181"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt_descrip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_tips"
+                android:text="@string/descrip_setup2"
+                android:textColor="#637181"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_descrip"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:text="@string/title_setup2"
+                android:textStyle="bold"
+                android:textColor="#637181"
+                android:textSize="@dimen/_15sdp" />
+
+
+            <!--Ngan sach toi thieu-->
+            <RelativeLayout
+                android:id="@+id/relative_nstt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_title"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_ngan_sach_toi_thieu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setup2_category_index0"
+                    android:textColor="#637181"
+                    android:textSize="@dimen/text_big" />
+
+                <Button
+                    android:id="@+id/btn_ns_tt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_height_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/border_button_bright"
+                    android:drawableLeft="@drawable/drawable_left_add_bright"
+                    android:paddingLeft="@dimen/drawable_padding"
+                    android:text="@string/add"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_default" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_setup2_nstt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_nstt"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/activity_margin" />
+
+            <!--Ngan sach co ban-->
+            <RelativeLayout
+                android:id="@+id/relative_nscb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycle_setup2_nstt"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_ngan_sach_co_ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setup2_category_index1"
+                    android:textColor="#637181"
+                    android:textSize="@dimen/text_big" />
+
+                <Button
+                    android:id="@+id/btn_ns_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_height_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/border_button_bright"
+                    android:drawableLeft="@drawable/drawable_left_add_bright"
+                    android:paddingLeft="@dimen/drawable_padding"
+                    android:text="@string/add"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_default" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_setup2_nscb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_nscb"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/activity_margin" />
+
+            <!--Phong cach song-->
+            <RelativeLayout
+                android:id="@+id/relative_pcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/recycle_setup2_nscb"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_phong_cach_song"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setup2_category_index2"
+                    android:textColor="#637181"
+                    android:textSize="@dimen/text_big" />
+
+                <Button
+                    android:id="@+id/btn_pcs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_height_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/border_button_bright"
+                    android:drawableLeft="@drawable/drawable_left_add_bright"
+                    android:paddingLeft="@dimen/drawable_padding"
+                    android:text="@string/add"
+                    android:textAllCaps="false"
+                    android:textColor="@color/text_default" />
+            </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycle_setup2_pcs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_pcs"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_marginTop="@dimen/activity_margin" />
+
+            <include
+                layout="@layout/budget_chart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:layout_below="@id/recycle_setup2_pcs" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>

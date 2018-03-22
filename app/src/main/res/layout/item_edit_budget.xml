@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Tiền điện thoại"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/tv_name_edit_budget"
+            android:textColor="#637181"
+            android:layout_weight="1"/>
+
+        <ImageView android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/btn_delete_edit_budget"
+            android:src="@drawable/close"/>
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200.000 vnđ"
+        android:textSize="44dp"
+        android:id="@+id/tv_value_edit_budget"
+        android:textStyle="normal"/>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/theoDoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#637181"
+        android:text="Mua khung tranh"
+        android:textStyle="bold"
+        android:textSize="12.5dp"/>
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#637181"
+        android:scrollHorizontally="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="300K"
+        android:textSize="12.5dp"
+        android:singleLine="true" />
+
+</LinearLayout>
